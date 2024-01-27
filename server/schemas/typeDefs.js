@@ -7,7 +7,10 @@ type User {
     bookCount: Int
     savedBooks: [Book]
 }
-
+type UserType {
+    _id: ID
+    username: String
+  }
 type Auth {
     token: ID
     user: User

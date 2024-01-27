@@ -1,16 +1,32 @@
 # Book-Search-using-MERN
 
-This repository contains the Book Search application built with the MERN stack (MongoDB, Express.js, React, and Node.js) and Apollo Server for GraphQL integration.
+The Book Search application is a React-based web platform that allows users to search for books and save their favorites. It leverages GraphQL with Apollo Client for efficient data handling and Bootstrap for a responsive, user-friendly interface.
+
+## Features
+
+- **Search Books**: Users can search for books using the Google Books API.
+- **Save Books**: Users have the option to save books to their personal list.
+- **User Authentication**: The application includes user authentication for secure access to personal saved books.
+- **Responsive Design**: Implemented using Bootstrap, ensuring a seamless experience across different devices.
+
+## Technologies Used
+
+- React.js
+- Apollo Client
+- Bootstrap
+- GraphQL
 
 ## Getting Started
+
+To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
 - Node.js
-- MongoDB
-- npm (Node Package Manager)
+- npm
 
 ### Installation
+
 
 1. **Clone the repository**
    ```bash
@@ -27,15 +43,26 @@ npm install
 ## Running the Application
 - Use the following command to run both the client and the server concurrently:
 
-npm run develop
-This command will start the server and the client on http://localhost:3001 
+## File Structure
 
-**Contributing**
-Feel free to fork this repository and submit pull requests for any improvements or fixes.
+- `App.jsx`: Root component that sets up the Apollo Client and routing.
+- `main.jsx`: Entry point for the React application.
+- `SavedBooks.jsx`: Component for displaying and managing saved books.
+- `SearchBooks.jsx`: Component for searching books.
+- `LoginForm.jsx` & `SignupForm.jsx`: Components for user authentication.
+- `Navbar.jsx`: Navigation component.
+- `App.css`: Stylesheet for the application.
 
-**License**
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Contributing
 
-## Link to the deployed application
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-- https://book-search-using-mern.onrender.com/
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
